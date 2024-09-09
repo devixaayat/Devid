@@ -4,7 +4,7 @@
 #include<string>
 #include"trie.h"
 #include<fstream>
-using namespace std;
+using namespace struct;
 
 struct TrieNode* rootOfTrie = getNode();
 

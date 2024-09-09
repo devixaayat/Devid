@@ -6,7 +6,7 @@
 #include<fstream>
 
 
-struct getTrie* rootOfTrie = getNode();
+
 
 //doubly linked list of posts - specific to a user
 struct Post{

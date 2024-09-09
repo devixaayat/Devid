@@ -8,7 +8,7 @@
 
 
 
-//doubly linked list of posts - specific to a user
+doubly linked list of posts - specific to a user
 struct Post{
     string author;
     string content;
@@ -18,9 +18,9 @@ struct Post{
 
 };
 
-//every newsfeed is user-specific
-//it is a stack of posts LIFO
-//every time a user posts something, the newsfeeds of all his/her friends get the particular post added to their stack
+every newsfeed is user-specific
+it is a stack of posts LIFO
+every time a user posts something, the newsfeeds of all his/her friends get the particular post added to their stack
 
 struct Feed{
     struct Post* post;

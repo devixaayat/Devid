@@ -284,7 +284,7 @@ void displayFriendRequests(GRAPHPTR graph,int ID){
 
 void sendFriendRequest(GRAPHPTR graph,int ID){
     User* user = &graph->users[ID];
-    //view all users in the system, and using trie get the person's ID
+    //view all users in the system, and using trie get the persons ID
 
     displayAllUsersInTheSystem(graph);
     cout<<"Enter the ID of the person whom you want to befriend : ";

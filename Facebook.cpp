@@ -80,7 +80,7 @@ void addEdge(GRAPHPTR graph,int src,int destination){
     }
     curUser->next = destinationUser;
 
-    //append src to destinations' adj list
+    //append src to destinations adj list
 
     destinationUser = initializeFriend(graph->users[src].user_id,graph->users[src].name);
     curUser = &graph->users[destination];

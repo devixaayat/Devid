@@ -1,5 +1,3 @@
-//Data Structures mini package to simulate the organization of users in facebook network
-//Includes the implementation of various data structures including Graph, Trie, Queue and Stack
 
 #include<iostream>
 #include<bits/stdc++.h>
